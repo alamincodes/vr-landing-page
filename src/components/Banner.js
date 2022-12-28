@@ -8,15 +8,27 @@ const Banner = () => {
         <div className="flex flex-col lg:flex-row">
           {/* text */}
           <div>
-            <h1 className="text-3xl  font-bold mb-8 lg:text-5xl lg:leading-snug">
+            <h1
+              className="text-3xl  font-bold mb-8 lg:text-5xl lg:leading-snug"
+              data-aos="fade-down"
+              data-aos-delay="500"
+            >
               Let's Explore <br /> Three-Dimensional Visually.
             </h1>
-            <p className="font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0">
+            <p
+              className="font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0"
+              data-aos="fade-down"
+              data-aos-delay="600"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
               doloribus inventore harum cumque blanditiis minima.
             </p>
             {/* button */}
-            <div className="flex items-center justify-around space-x-4 lg:space-x-8 max-w-[320px] lg:justify-start lg:max-w-none mx-auto lg:mx-0">
+            <div
+              className="flex items-center justify-around space-x-4 lg:space-x-8 max-w-[320px] lg:justify-start lg:max-w-none mx-auto lg:mx-0"
+              data-aos="fade-down"
+              data-aos-delay="700"
+            >
               <button className="btn">Get it now</button>
               <a
                 href="#"
@@ -29,7 +41,7 @@ const Banner = () => {
             <Users />
           </div>
           {/* image */}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="800">
             <img src={img} alt="" />
           </div>
         </div>

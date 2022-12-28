@@ -7,7 +7,10 @@ import Avatar4 from "../assets/img/avt4.png";
 import { BsFillCircleFill } from "react-icons/bs";
 const Users = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center lg:justify-start mt-8 items-center space-x-5 space-y-2 lg:space-y-0">
+    <div className="flex flex-col lg:flex-row justify-center lg:justify-start my-12 items-center space-x-5 space-y-2 lg:space-y-0"
+    data-aos="fade-down"
+    data-aos-delay="900"
+    >
       <div className="flex -space-x-2">
         <div className="w-12 h-12 rounded-full">
           <img src={Avatar1} alt="" />
