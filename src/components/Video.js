@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import ModalVideo from "react-modal-video";
+
 import { BsPlayCircleFill } from "react-icons/bs";
 
-import "../modalVideo.scss";
 const Video = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -18,14 +17,7 @@ const Video = () => {
             {" "}
             Awesome experiences with virtual reality world
           </h3>
-          {/* modal video */}
-          <ModalVideo
-            channel="youtube"
-            autoplay
-            isOpen={isOpen}
-            videoId="x8-JCOfJ4Oc?si=0_wFujBiW480CeJU"
-            onClose={() => setIsOpen(false)}
-          />
+
           {/* video */}
           <div
             className="bg-videoBg bg-no-repeat bg-cover w-[270px] h-[180px] flex items-center justify-center"
