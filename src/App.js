@@ -28,7 +28,7 @@ const App = () => {
       <div
         className={`${
           navMobile ? "right-0" : "-right-full"
-        } fixed top-0 bottom-0 w-48 transition-all`}
+        } fixed top-0 bottom-0 w-48 z-10 transition-all`}
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>

@@ -30,13 +30,10 @@ const Banner = () => {
               data-aos-delay="700"
             >
               <button className="btn">Get it now</button>
-              <a
-                href="#"
-                className="border-b-2 border-transparent hover:border-b-white transition ease-out"
-              >
+              <p className="border-b-2 border-transparent hover:border-b-white transition ease-out">
                 {" "}
                 Explore Device
-              </a>
+              </p>
             </div>
             <Users />
           </div>
