@@ -39,7 +39,7 @@ const TestimonialSlider = () => {
                 <img className="mb-3 md:mb-0" src={image} alt="" />
               </div>
               <div>
-                <div className="font-medium text-base">{name}</div>
+                <div className="text-base font-medium">{name}</div>
                 <div className="font-medium text-rose-600">{email}</div>
               </div>
             </div>
